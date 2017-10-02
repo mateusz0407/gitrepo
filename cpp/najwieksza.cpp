@@ -1,48 +1,32 @@
 /*
- * pobierz trzy liczby całkowite od użytkownika i wydrukuj większą
-*/
-#include <iostream>
+ * hello.cpp
 
+ */
+
+
+#include <iostream>
 using namespace std;
 
+
 int main(int argc, char **argv)
-{    
-    int a, b, c;
-    a=b=c=0;
-    cout <<"Podaj pierwszą liczbę: ";
-    cin>>a;
-    cout<<"Podaj drugą liczbę: ";
-    cin>>b;
-    cout<<"Podaj trzecią liczbę: ";
-    cin>>c;
-    
-    if (a>b && a>c)
+{
+ //char imie; // deklaracja zminnej znakowej 
+; // deklaracja zminnej tablicowej  
+ int a , b , c ;
+ a =b=c=0;
+
+    cout << "podaj liczby: " << endl;
+    cin >> a >> b >> c;
+    if (a > b)
+{
+    if (a>c) cout <<"najwieksze jest a!";
+    else cout << "najwieksze jest c";
+    } 
+    else
     {
-        cout<<"a="<<a<<" jest największą liczbą"<<endl;
-    }
-    else if (b>a && b>c)
-    {
-        cout<<"b="<<b<<" jest największą liczbą"<<endl;
-    }
-    else if(c>a && c>b)
-    {
-        cout<<"c="<<c<<" jest największą liczbą"<<endl;
-    }
-    else if(a==b && b==c)
-    {
-        cout<<"Wszystkie liczby są równe"<<endl;
-    }
-    else if(a>b && a==c)
-    {
-        cout<<"Największymi liczbami są a="<<a<<" i c="<<c<<endl;
-    }
-    else if(a<b && b==c)    
-    {
-        cout<<"Największymi liczbami są b="<<b<<" i c="<<c<<endl;
-    }
-    else if(a>c && a==b)
-    {
-        cout<<"Największymi liczbami są a="<<a<<" i b="<<b<<endl;
-    }
-	return 0; 
+    ; // a nie jest większe od b
 }
+    
+    return 0;
+}
+
