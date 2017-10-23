@@ -7,27 +7,36 @@
 
 using namespace std ;
 
-int main(int argc, char **argv)
-{
-    int liczby [10];
+void pobierzliczby(int tab[], int ile){
+    int i =0;
+    for (i=0;i<ile;i++){
+            cout<<"podaj liczbę: ";
+            cin>>tab[i];}
+}
+void sumuj (int tab[], int ile){
     int i=0;
     int suma=0;
-    int parzyste=0;
-    for (i=0;i<10;i++){
-            cout<<"podaj liczbę: ";
-            cin>>liczby[i];
-                }
-    for (i=0;i<10;i++){
-
-            cout<<liczby [i] <<" ";
-            
-            suma+=liczby[i];
-            if(liczby[i]%2==0)
-                parzyste++;
-                }
+    for (i=0;i<ile;i++){
+        suma+=tab[i];
+    }
     cout<<"suma liczb: "<<suma<<endl;
-    cout<<"ilość liczb parzystych: "<<parzyste<<endl;
+}
+void najmniejsza(int tab[], int ile){
+    ;//funkcja znajduje i drukuje najmniejsza liczbe z tabeli 
+    }
 
+
+int main(int argc, char **argv)
+{
+    int rozmiar=0;
+    cout<< "ile liczb podasz???";
+    cin>>rozmiar;
+    int liczby [rozmiar];
+
+
+    pobierzliczby(liczby,rozmiar);
+    sumuj(liczby,rozmiar);
+    
     return 0;
 }
 
