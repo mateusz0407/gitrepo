@@ -1,21 +1,26 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-#  potęga.py 
+#  potęga2.py
 #  
 
-def main (args):
+def potega_it(a,b):
+	
+	i = 1 
+	wynik = 1
+	while i <= b :
+		wynik = wynik * a
+		i = i+1
+	
+	return wynik
+    
+
+def main(args):
 	a = float(input("Podaj podstawę"))
 	b = int(input("Podaj wykładnik"))
+	print ("wynik: ", potega_it(a,b))
 	
-	while b < 0:
-		wynik = a ** b
-		
-	print (a ** b)
 	
-	return 0
-
-
 if __name__ == '__main__':
     import sys
     sys.exit(main(sys.argv))
