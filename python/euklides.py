@@ -17,7 +17,7 @@ def main(args):
     assert nww_v1(5, 10) == 5
     assert nww_v1(3, 9) == 3
     assert nww_v1(11, 33) == 11
-    print("NWW({:d}, {:d}) = {:d}".format(a, b, nww_v1(a, b)))
+    print("NWD({:d}, {:d}) = {:d}".format(a, b, nww_v1(a, b)))
     return 0
 
 
