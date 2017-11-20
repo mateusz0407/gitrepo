@@ -15,13 +15,8 @@ def potega_it(x,n):
 def main (args):
     x = float(input("Podaj podstawę: "))
     n = int(input("Podaj wykładnik: "))
-    assert potega(1,1) == 1
-    assert potega(2,1) == 2
-    assert potega(3,3) == 27
-    assert potega(2,2) == 4
     
-    
-    print ("wynik:" , potega(x,n))
+    print ("wynik:" , potega_it(x,n))
     return 0
     
 if __name__ == '__main__':
