@@ -19,6 +19,14 @@ int euklides_v1(int a, int b){
 		return a;
 }
 
+int euklides_v2(int a, int b){
+    while(a>b)
+    {
+        a = a % b;
+        b = b - a;
+    }
+    return b;
+}
 int main(int argc, char **argv)
 {
 	int a;
@@ -31,4 +39,3 @@ int main(int argc, char **argv)
 
 	return 0;
 }
-
