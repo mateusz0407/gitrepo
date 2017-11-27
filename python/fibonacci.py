@@ -1,32 +1,32 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
+#
+#  fibonacci.py
+#  
 
 def fib_iter(n):
-    """f(0) = 0
-    f(1) =1
-    f(n) = F(n-2)+F(n-1)
     """
-    a, b = (0, 1)
+        Funkcja drukuje kolejne wyrazy ciągu Fibonacciego
+        aż do wyrazu n-tego, który zwraca.
+        Wersja iteracyjna z pętlą for.
+    """
+    a, b = 0, 1
+    print("wyraz", 1, a)
+    print("wyraz", 2, b)
     for i in range(1, n - 1):
-        tmp = a
-        a = b
-        b = tmp + b
-    if n > 1:
-        return b
-    else:
-        return a
+        # wynik = a + b
+        a, b = b, a + b
+        print("wyraz", i + 2, b)
+
+    print()  # wiersz odstępu
+    return b
 
 
 def main(args):
-    n = int(input('podaj wyraz ciągu: '))
-    assert fib_iter(0) == 1
-    assert fib_iter(1) == 1
-    assert fib_iter(2) == 1
-    assert fib_iter(3) == 2
-    assert fib_iter(4) == 3
-    assert fib_iter(5) == 5
-    print("wyraz {:d} = {:d}".format(n, fib_iter(n)))
+    n = int(input("Podaj nr wyrazu: "))
+    fib_iter(n)
+    print()
+    print("=" * 40)
     return 0
 
 
