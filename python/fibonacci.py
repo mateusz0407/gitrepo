@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-#
-#  fibonacci.py
-#  
+
 
 def fib_iter(n):
     """
@@ -10,23 +8,27 @@ def fib_iter(n):
         aż do wyrazu n-tego, który zwraca.
         Wersja iteracyjna z pętlą for.
     """
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
     a, b = 0, 1
-    print("wyraz", 1, a)
-    print("wyraz", 2, b)
-    for i in range(1, n - 1):
+    print(a)
+    print(b)
+    for i in range(1, n):
         # wynik = a + b
-        a, b = b, a + b
-        print("wyraz", i + 2, b)
+        tmp = b
+        b = a + b
+        a = tmp
+        print(a, " ", b)
 
     print()  # wiersz odstępu
     return b
 
 
 def main(args):
-    n = int(input("Podaj nr wyrazu: "))
-    fib_iter(n)
-    print()
-    print("=" * 40)
+    # n = int(input("Podaj nr wyrazu: "))
+    print("wyraz {:d} = {:d}".format(10, fib_iter(10)))
     return 0
 
 
