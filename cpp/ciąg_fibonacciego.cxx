@@ -11,9 +11,11 @@ int fib(int n)
 {
   if(n<3)
     return 1;
- 
-  return fib(n-2)+fib(n-1);
+    
+  if(n>2) 
+	return fib(n-2)+fib(n-1);
 }
+
  
 int main()
 {
@@ -25,6 +27,5 @@ int main()
  
   cout<<n<<" wyraz ciągu ma wartość "<<fib(n)<<endl;
  
-  system("pause");
   return 0;
 }
