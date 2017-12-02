@@ -20,7 +20,7 @@ def main(args):
     assert silnia_it(1) == 1
     assert silnia_it(2) == 2
     assert silnia_it(3) == 6
-    # print ("silnia dal {:d}:{:d}".format (n, silnia_it(n)))
+    print ("silnia dal {:d}:{:d}".format (n, silnia_it(n)))
     return 0
 
 

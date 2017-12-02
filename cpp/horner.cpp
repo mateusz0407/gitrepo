@@ -34,6 +34,6 @@ int main(int argc, char **argv)
             cin >> tbwsp[i];
         }
         cout<<horner_it(stopien, tbwsp, x )<<endl;
-	return 0;
+	return 0
 }
 
