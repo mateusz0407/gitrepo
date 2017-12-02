@@ -1,56 +1,58 @@
 /*
-	minmax.cpp
+ * minmax.cpp
+ * 
  */
 
 
-
-
 #include <iostream>
-#include <ctime>
-#include <cstdlib>
+#include <time.h>
+
 using namespace std;
-int main()
+
+int losuj(int ileliczb, int maxliczb, int tab[])
 {
-    srand( time(0) );
-    int tab[ 20 ];
-    int x;
-    int min, max;
- 
-    cout << "Wylosowane liczby: " << endl << endl;
-    for( int i = 0; i < 20; i++ )
+    int i, liczba;
+    // int ile = 0; // ilośc unikalnych liczb
+    srand(time(NULL)); // pobieranie czasu od 1970 do teraz
+    for (i = 0; i < ileliczb; i++)
     {
-        do
-        {
-            x =( rand() % 49 ) + 1;
-        }
-        while(( tab[ 0 ] == x )||( tab[ 1 ] == x )||( tab[ 2 ] == x )||( tab[ 3 ] == x )||( tab[ 4 ] == x )||( tab[ 5 ] == x ) );
- 
-        tab[ i ] = x;
- 
-        cout << tab[ i ] << " ";
+		liczba = rand()% 30 + 10; // funkcja losująca liczbę (przedział od 10 do 50)
+        tab[i] = liczba;
+		cout << liczba << endl;
     }
- 
-     min = tab[0];
- 
-    for(int i=0; i<20; i++)
-    {
-        if(min>tab[i])
-        {
-            min = tab[i];
-        }
-    }
- 
-    max = tab[0];
- 
-    for(int i=0; i<20; i++)
-    {
-        if(max<tab[i])
-        {
-            max = tab[i];
-        }
-    }
-    cout<<endl;
-    cout<<"najmniejsza liczba to: "<<min<<endl;
-    cout<<"najwieksza liczba to: "<<max<<endl;
-    return 0;
+    return liczba;
+}
+
+int minimum(int tab[])
+{
+	int min = tab[0];
+	for( int i = 1; i < 10; i++)
+	{
+		if(tab[i] < min)
+			min = tab[i];
+	}
+	return min;
+}
+
+int maximum(int tab[])
+{
+	int max = tab[0];
+	for( int i = 1; i < 10; i++)
+	{
+		if(tab[i] > max)
+			max = tab[i];
+	}
+	return max;
+}
+
+int main(int argc, char **argv)
+{
+    int ile = 10;
+	int tab[ile];
+	losuj(ile, 40, tab);
+    
+	cout << "Min: "<< minimum(tab) << endl;
+	cout << "Max: " << maximum(tab) << endl;
+	
+	return 0;
 }

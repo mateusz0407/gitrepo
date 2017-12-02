@@ -3,31 +3,34 @@
  */
 
 
+#include <iostream>
 
-#include<iostream>
-#include<cstdlib>
 using namespace std;
- 
-void fibonacci(int n)
-{    
-     long long a = 0, b = 1;
- 
-     for(int i=0;i<n;i++)
-     {
-            cout<<b<<" ";
-            b += a; //pod zmienną b przypisujemy wyraz następny czyli a+b
-            a = b-a; //pod zmienną a przypisujemy wartość zmiennej b
-     }     
-}
- 
-int main()
+
+int fib_iter(int n)
 {
-    int n;
- 
-    cout<<"Podaj ile chcesz wypisać wyrazów ciągu fibonacciego: ";
-    cin>>n;
- 
-    fibonacci(n);
- 
-    return 0;
+	if ( n == 0)
+		return 0;
+	else if ( n == 1)
+		return 1;
+	int a = 0;
+	int b = 1;
+	int tmp;
+	cout << a << endl;
+	for (int i = 1 ; i < n; i++) 
+	{	tmp = b;
+		b = a + b;
+		a = tmp;
+	}
+    cout << a << " " << b << " " << b / a << endl;
+    return b;
+}
+
+int main(int argc, char **argv)
+{
+	int n;
+	cout << "Numer wyrazu ciągu: " << endl;
+	cin >> n;
+	printf("Wyraz %d = %d", n, fib_iter(n));	
+	return 0;
 }
