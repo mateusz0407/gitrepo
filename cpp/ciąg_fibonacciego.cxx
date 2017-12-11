@@ -17,7 +17,15 @@ int fib(int n)
 		
 }
 
- 
+ int fib_rek(int n)
+{
+    if (n < 2)
+        return 1;
+    else
+        return fib_rek(n - 1) + fib_rek(n - 2);
+    
+}
+
 int main()
 {
  
