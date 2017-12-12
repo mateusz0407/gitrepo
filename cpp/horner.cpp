@@ -21,6 +21,7 @@ float horner_it(int k, float tbwsp[], float x){
 
 
 
+
 int main(int argc, char **argv)
 {
 	int stopien = 3;
@@ -36,4 +37,3 @@ int main(int argc, char **argv)
         cout<<horner_it(stopien, tbwsp, x )<<endl;
 	return 0
 }
-
