@@ -9,6 +9,11 @@ def horner(k, tb, x):
 		
 	return wynik
 
+def horner_rek(k, tb, x):
+	
+	if k == 0:
+		return tb[0]
+	return horner_rek(k-1,tb,x)*x + tb[k]
 
 def main(args):
 	tb = []
@@ -17,7 +22,7 @@ def main(args):
 	for i in range(0, 4):
 		tmp = int(input("podaj wartości indeksów: "))
 		tb.append(tmp)
-	print("wynik wielomianu wynosi: ", horner(k, tb, x))
+	print("wynik wielomianu wynosi: ", horner_rek(k, tb, x))
 	return 0
 
 

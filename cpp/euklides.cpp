@@ -27,6 +27,13 @@ int euklides_v2(int a, int b){
     }
     return b;
 }
+
+int euklides_rek(int a, int b)
+{
+    if (b == 0)
+        return a;
+    return euklides_rek(b,a % b);
+}
 int main(int argc, char **argv)
 {
 	int a;
@@ -35,7 +42,7 @@ int main(int argc, char **argv)
 	cin >> a;
 	cout<< "podaj drugą liczbę: "<<endl;
 	cin >> b;
-	cout<<"największy wspólny dzielnik: " << euklides_v1(a, b) << endl;
+	cout<<"największy wspólny dzielnik: " << euklides_rek(a, b) << endl;
 
 	return 0;
 }
