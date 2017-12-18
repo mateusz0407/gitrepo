@@ -10,23 +10,19 @@ using namespace std;
 //a1 = 2
 //an = an-1 * n^2 - 1
  
-int wyraz(int a, int n)
+int wyraz(int n)
 {
     if(n==1)
         return 2;
-    return ciag(n -1) * ciag (n * n) + 1
+    return wyraz(n -1) * wyraz(n * n) + 1;
 }
  
-int main(int argc, char **argv)
+int main()
 {
     int n=0;
-
-
-
-
-    cout<<"Podaj 2 liczbe: ";
+    cout<<"Podaj n: ";
     cin>>n;
-   
-    cout<<wyraz(n);
+    
+    cout<<wyraz(n)<<endl;
     return 0;
 }
