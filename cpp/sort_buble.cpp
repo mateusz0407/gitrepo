@@ -1,4 +1,5 @@
 #include <iostream>
+#include <time.h>
 
 using namespace std;
 
@@ -27,16 +28,19 @@ void zamien(int &a, int &b)
     b = tmp;
 }
 
-void sort_bable(int tab[], int n)
+void sort_bab(int tab[], int n)
 {
-    // selection sort
+    // bubble sort
     cout << " ------------- Sortowanie przez bąbelkowanie ---------------" << endl;
-    for (int i = 0;i < n; i++){
-        for (int j = 0; j < n - 1 - i; j++){
-            if(tab[j]>tab[j+1])
-                zamien(tab[j], tab[j = 1]);
-            }
+	int i, j;
+	for(i = 0; i < n; i++)
+	{
+        for ( j = 0; j < n - 1 - i; j++)
+        {
+			if(tab[j] > tab[j + 1])
+                zamien(tab[j], tab[j + 1]);
         }
+    }
 }
 
 
@@ -46,8 +50,7 @@ int main(int argc, char **argv)
     int tab[ile];
     wypelnij(tab, ile, 20);
 	drukuj(tab, ile);
-    sort_bable(tab, ile);
+    sort_bab(tab, ile);
     drukuj(tab, ile);
     return 0;
-}
 }
