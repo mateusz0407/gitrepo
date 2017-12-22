@@ -12,10 +12,9 @@ def wypelnij(lista, ile, maks):
 
 
 def sort_babel(lista):
-    for i in range(len(list)):
-        for j in range(i + 1, len(lista)):
+    for i in range(len(lista) - 1, 0, -1):
+        for j in range(i):
             if lista[j] > lista[j + 1]:
-                
                 lista[j], lista[j + 1] = lista[j + 1], lista[j]
 
     return lista
