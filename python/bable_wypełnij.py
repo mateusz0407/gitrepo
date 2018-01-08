@@ -23,7 +23,13 @@ def sort_wstaw_min(lista):
             k -= 1
         lista[k + 1] = el  # wstawienie elementu
     return lista
-
+    
+    
+def sort_wstaw_bin(lista):
+    for i in range(1, len(lista)):
+        el = lista[i]
+        k = szukaj_bin(0, i, lista, el)
+        pass
 
 def main(args):
     lista = [4, 3, 7, 0, 2, 3, 1, 9]
