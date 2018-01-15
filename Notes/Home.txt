@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-01-11T08:34:35+01:00
+
+====== Home ======
+Created czwartek 11 styczeń 2018
+
+poprawność - rozwiązuje problem dla któreych zostal stworzony
+skończoność
+złożoność
+efektywność 
+całkowita poprawność algorytmu 
+indukcja - sprawdzenie pewnego zakresu i odniesienie się poprzez niego do wszystkich 
+błędy
+składnowe 
+logiczne 
