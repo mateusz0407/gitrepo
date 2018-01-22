@@ -19,7 +19,8 @@ def main(args):
             break
         elif n == 2:
             print("Pierwsze")
-        pritn("Zlozona")
+            break
+        print("Zlozona")
         break
     return 0
  
