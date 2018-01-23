@@ -3,14 +3,16 @@
  
  
 def main(args):
-    n = int(input("Podaj liczbe: "))
+    n = 0
+    while n < 2:
+        n = int(input("Podaj liczbe: "))
     i = 2
     while i * i <= n:
         if n % i == 0:
-            print("złożona")
+            print(n, "złożona")
             return 0
         i += 1
-    print("pierwsza")
+    print(n, "pierwsza")
     return 0
  
  
