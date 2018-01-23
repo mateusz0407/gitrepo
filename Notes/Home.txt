@@ -19,3 +19,7 @@ system addytywny
 I
 II
 MMXVIII
+MCMXCIX
+system pozycyjny
+podstawa 5 
+dostępne cyfry{0,1,2,3,4}

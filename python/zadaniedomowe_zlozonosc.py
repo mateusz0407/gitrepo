@@ -5,8 +5,8 @@
 def main(args):
     n = int(input("Podaj liczbe: "))
     i = 2
-    while n % i > 0:
-        if i * i >= n:
+    while i * i >= n:
+        if n % i > 0:
             print("pierwsze")
             break
         i += 1
