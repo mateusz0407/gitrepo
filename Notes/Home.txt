@@ -14,3 +14,8 @@ indukcja - sprawdzenie pewnego zakresu i odniesienie się poprzez niego do wszys
 błędy
 składnowe 
 logiczne 
+
+system addytywny
+I
+II
+MMXVIII

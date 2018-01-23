@@ -8,9 +8,9 @@ int main(int argc, char **argv)
     cout<<"Podaj liczbe: ";
     cin>>n;
     int i = 2;
-    while(n%i != 0)
+    while(i*i >= n)
     {
-        if(i*i >= n)
+        if(n%i != 0)
         {
             cout<<"pierwsza"<<endl;
             break;
