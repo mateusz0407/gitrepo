@@ -31,14 +31,20 @@ def dec2other():
 
 
 def konwersja2(liczba, podstawa):
-	suma = 0
-	for i in range(len(liczba)-1):
-		suma+=int(liczba[i])
-		suma*=podstawa
-	suma+=int(liczba[i + 1])
+	suma=0
+	for i in range(len(liczba)):
+		if(ord(liczba[i])>podstawa+54):
+			return "jesteś tępym chujem"
+		else:
+			suma*=podstawa
+			if (ord(liczba[i])>64):
+				a=ord(liczba[i])-55
+			else:
+				a=int(liczba[i])
+			suma+=a
 	return suma
-
-
+	
+	
 def other2dec():
     system = int(input("podaj system: "))
     licz = input("podaj liczbę: ")
