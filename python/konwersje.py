@@ -34,7 +34,7 @@ def konwersja2(liczba, podstawa):
 	suma=0
 	for i in range(len(liczba)):
 		if(ord(liczba[i])>podstawa+54):
-			return "jesteś tępym chujem"
+			return "za duza liczba, podaj mniejszą"
 		else:
 			suma*=podstawa
 			if (ord(liczba[i])>64):
