@@ -30,11 +30,19 @@ def dec2other():
         liczba, konwersja1(liczba, podstawa), podstawa))
 
 
-def konwersja2(liczba, podstawa)
+def konwersja2(liczba, podstawa):
+	suma = 0
+	for i in range(len(liczba)-1):
+		suma+=int(liczba[i])
+		suma*=podstawa
+	suma+=int(liczba[i + 1])
+	return suma
 
 
 def other2dec():
-    print(konwersja2())
+    system = int(input("podaj system: "))
+    licz = input("podaj liczbę: ")
+    print(konwersja2(licz, system))
 
 
 def main(args):
