@@ -33,7 +33,7 @@ def dec2other():
 def konwersja2(liczba, podstawa):
 	suma=0
 	for i in range(len(liczba)):
-		if(ord(liczba[i])>podstawa+54):
+		if(ord(liczba[i])>podstawa+54): # ord z litery na liczbę
 			return "za duza liczba, podaj mniejszą"
 		else:
 			suma*=podstawa
@@ -54,7 +54,7 @@ def other2dec():
 def main(args):
     print("zmiana liczby dziesiatną na liczbe o podajej podstawie"
           "<2;16> lub odwrotnie")
-    dec2other()
+    # dec2other()
     other2dec()
     return 0
 

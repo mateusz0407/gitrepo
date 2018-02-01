@@ -44,7 +44,7 @@ konfersja liczb w różnych systemach:
 119/2= 59  reszty 1
 59/2= 29  reszty 1
 29/2=14  reszty 1
-14/2=7 reszty 0
+14/2=7 reszty 0%
 7/2=3 reszty 1
 3/2=1 reszty 1
 1/2=0 reszty 1
@@ -58,3 +58,30 @@ bity bardziej znaczące te wieksze a mniej znaczące to te o mniejszej
 7/16=0 reszty 7
 
 przy zamianie z dwójkowego na ósemkowy to zapis binarny dzielimy na grupy trzybitowe od bitów najmnijznaczących i grupy trzybitowe zamieniam na liczby 
+
+
+
+kompresja polega na zmianie sposobu zapisu informacji tak, aby zmniejszyć redundancję i tym samym objętość zbioru. Innymi słowy chodzi o wyrażenie tego samego zestawu informacji, lecz za pomocą mniejszej liczby bitów.
+
+**rodzaje kompresji:**
+formaty video
+MKV AVI MP4 kontenery 
+MPG 
+PIERWSZYMI WYDAJNYMI KODEKAMI BYŁ [[DivX]] 
+BITRATE IM WIEKSZA JEST PRZEPŁYWNOŚC TO JEST LEPSZA JAKOŚĆ
+Przepływność – ilość informacji transmitowana w jednostce czasu poprzez kanał komunikacyjny. Przepływność mierzona jest w bitach na sekundę lub, rzadko, w bajtach na sekundę i ich wielokrotnościach: kb/s, Mb/s, Gb/s, kB/s, MB/s.
+
+algorytm kompresji słownikowej
+The rain in Spain falls mainly on the plain.
+the rain <3,3> Sp<9,4>falls m<11,3>ly on t<34,2>pl<15,3>.
+6bitów+2 bitów= 8 bitów 
+33bajty / 44 bajty * 100 % = 75 %
+
+współczynnik kompresji
+Rc = Vk / Vnk *100% 
+100% - Rc 
+
+49,9 kB / 262,7 kB * 100 =19%(81)
+116,5 kB  / 262,7 kB * 100=44%(56)
+ 
+
