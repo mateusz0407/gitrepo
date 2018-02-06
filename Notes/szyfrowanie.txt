@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-02-06T10:03:15+01:00
+
+====== szyfrowanie ======
+Created wtorek 06 luty 2018
+
+szyfrowanie polega  na ukryciu danych 
+odczytywanie to SZYFROGRAM
+odczytywanie ukrytej informacji to deszyfracja
+podstawieniowym rodzajem szyfru jest //szyfr cezara// 
