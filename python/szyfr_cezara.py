@@ -3,23 +3,49 @@
 
 
 def szyfruj_cezara(tekst, klucz):
+    """Szyfrowanie tekstu za pomocą szyfru Cezara"""
+    szyfrogram = ""
     klucz = klucz % 26
-    szyfrogram = " "
     for znak in tekst:
-        znak = znak.upper()
-        ascii = ord(znak) + klucz
-        if ascii > 90:
-            ascii -= 26
+        if ord(znak) > 64 and ord(znak) < 91:
+            ascii = ord(znak) + klucz
+            if ascii > 90:
+                ascii -= 26
+        elif ord(znak) > 96 and ord(znak) < 123:
+            ascii = ord(znak) + klucz
+            if ascii > 122:
+                ascii -= 26
+        elif ord(znak) == 32:
+            ascii = 32
         szyfrogram += chr(ascii)
     return szyfrogram
+
+
+def deszyfruj(szyfrogram, klucz):
+    tekst = ""
+    klucz = klucz % 26
+    for znak in szyfrogram:
+        if ord(znak) > 64 and ord(znak) < 91:
+            ascii = ord(znak) - klucz
+            if ascii > 90:
+                ascii -= 26
+        elif ord(znak) > 96 and ord(znak) < 123:
+            ascii = ord(znak) - klucz
+            if ascii > 122:
+                ascii -= 26
+        elif ord(znak) == 32:
+            ascii = 32
+        tekst += chr(ascii)
+    return tekst
 
 
 def main(args):
     tekst = input("podaj tekst: ")
     klucz = int(input("klucz: "))
-
     szyfrogram = szyfruj_cezara(tekst, klucz)
+    
     print(szyfrogram)
+    print(deszyfruj(szyfrogram, klucz))
     return 0
 
 
