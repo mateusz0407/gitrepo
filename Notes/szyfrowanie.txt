@@ -9,3 +9,6 @@ szyfrowanie polega  na ukryciu danych
 odczytywanie to SZYFROGRAM
 odczytywanie ukrytej informacji to deszyfracja
 podstawieniowym rodzajem szyfru jest //szyfr cezara// 
+
+RODZAJE SZYFRÓW
+PRZESTAWIENIOWY - zapis tekstu w wierszach o ustalonej długości.
