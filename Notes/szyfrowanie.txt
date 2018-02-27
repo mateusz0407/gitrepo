@@ -12,3 +12,19 @@ podstawieniowym rodzajem szyfru jest //szyfr cezara//
 
 RODZAJE SZYFRÓW
 PRZESTAWIENIOWY - zapis tekstu w wierszach o ustalonej długości.
+
+**ASYMERTYCZNE**
+htpps - szyfrowana wersja protokoły https i polega na zastosowaniu tls
+kryptografia :: szyfrowanie asymetryczne
+klucz publiczny - udostepninie klucza publicznego żeby mogli się z nami komunikować;   
+klucz prywatny-do odczytu lub szyfrowania  jakiejs wiadomości 
+pretty good privacy 
+najpopularniejszym algorytmem do genertwania kluczy prywatnego i publicznego jest algorytm RSA
+algorytm rsa opiera się na dużych liczbach pierwszych 
+podpis elektroniczny
+-urzad certyfik
+klucz publiczny i prywatny nie występują w postaci jawnej 
+funkcja haszująca: funkcja skrótu 
+CRC
+MD5
+SHA
