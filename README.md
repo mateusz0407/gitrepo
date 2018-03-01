@@ -1,1 +1,1 @@
-moje repozytorium do prac na lekcjach informatyki 
+moje repozytorium do prac na lekcjach informatyki(super)
