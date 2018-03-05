@@ -1,0 +1,23 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-03-05T11:57:53+01:00
+
+====== systemy operacyjne ======
+Created poniedziałek 05 marzec 2018
+
+architektura von neumanna
+jednostka arytmetyczno logiczna to procesor składa się z rejestrów 
+rejestry danych – do przechowywania danych całkowitoliczbowych, np. argumentów i wyników obliczeń,
+rejestry adresowe – do przechowywania adresów i uzyskiwania dostępu do pamięci, wśród nich wyróżnić można rejestry segmentowe,
+rejestry ogólnego zastosowania (ang. general purpose), będące połączeniem dwóch powyższych typów, czyli mogące przechowywać zarówno dane, jak i adresy,
+
+magistrale symbolizowane sa przez strzałki 
+rodzaje magistral
+Szyna sterująca – synchronizacja wszystkich elementów komputera nadaje tempo oracy komputera
+Szyna adresowa  służące do przekazywania adresów fizycznych, z których jednostka centralna będzie wykonywała odczyty lub do których będzie realizowała zapisy danych.
+Szyna danych (ang. data bus) – przekazywanie danych 
+oprogramowanie sprzetowe firmwear
+rom- pamiec służaca tylko do odczytu, jeżeli tam cos zapiszemy to nawet po wyłaczeniu komputeraz z zasilania i tak bedą tam te dane przechowywane 
+ram jak wyłączymy zasilanie to nie zostają tam przechowywane dane 
+procesory 64 bitowe 
+do architektury procesora musi byc dostosowana jego pojemność 
