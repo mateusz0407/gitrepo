@@ -1,0 +1,32 @@
+Nowości w systemie Microsoft10
+
+
+Zwarty widok menu Start 
+Można wyeliminować z menu Start listę z przeglądem wszystkich zainstalowanych programów..
+
+Folder na kafelki
+Postępujemy podobnie jak w smartfonie: przeciągamy jeden kafelek nad drugi, upuszczamy go, by utworzyć kafelek zbiorczy. Do takiego kafelka można dodać kolejne skróty. Kliknięcie na kafelek-folder spowoduje rozwinięcie jego zawartości.
+
+Rozbudowie przeglądarkI Edge. 
+
+Nowy podgląd zakładek i funkcje archiwizacji, ale też lepsze wsparcie dla przeglądania e-booków.  Microsoft chce uczynić Edge narzędziem do czytania i zarządzania kolekcją cyfrowych książek. Będziemy mogli je w przyszłości kupić bezpośrednio w  Sklepie Windows, a przeglądarka przeczyta je nam na życzenie na głos. Doczekaliśmy się także wsparcia dla wielordzeniowych procesorów i funkcji blokowania treści Flash. Te funkcje mają poprawić poziom bezpieczeństwa, wydajność i stabilność. Dzięki temu Microsoft Edge ma poprawić nadszarpnięty wizerunek twórcy przeglądarek.  
+
+A)Przeglądarkę Edge wyposażono w możliwość zachowania otwartych zakładek w celu późniejszego ich przejrzenia. Kliknięciem na można przenieść wszystkie otwarte zakładki w chronologicznej kolejności do schowka Karty zapisane na później. Jednym kliknięciem przywrócimy je do okna Edge. Zapisane w schowku zakładki można udostępniać znajomym.
+B)Przeglądarka Edge pomoże nam teraz podczas wyszukiwania odpowiedniej zakładki przy wielu jednocześnie otwartych. Po kliknięciu nad paskiem adresu na strzałkę na liście zakładek otworzymy miniatury otwartych stron.
+
+Automatyczne narzędzie do utylizacji przez system zalegających w nim niepotrzebnych danych. 
+
+Creators Update wspiera teraz urządzenia dla niewidomych obsługujące alfabet Braille'a. Niedowidzący docenią ulepszoną funkcję czytania na głos oraz tryb wysokiego kontrastu podczas wyświetlania aplikacji. 
+
+Nowe zabezpieczenia przed złośliwym oprogramowaniem.
+Microsoft usprawnił usługę Windows Defender oraz dodał do niej kilka ciekawych funkcji. Pierwszą z nich jest Exploit Protection, czyli nowy mechanizm do zabezpieczania przed niebezpiecznymi eksploitami, który de facto pochodzi z rozwiązania EMET. Windows porzucił też na ustawieniach domyślnych obsługę protokołu SMBv1, który okazał się wadliwy i doprowadził do kilku niedawnych epidemii ransomware. 
+
+Łatwiejsza instalacja linuksowych środowisk.
+
+Ograniczanie zasilania dla aplikacji.
+
+Mechanizm zarządzania energią w Windows 10 zyskał nową funkcję, jaką jest ograniczanie zasilania dla aplikacji. Zadziała ona na razie tylko na procesorach Intela generacji Skylake lub nowszej. Dzięki niej system, gdy wykryje, że jest na zasilaniu bateryjnym, może skuteczniej zarządzać energią i pracą procesora. A konkretniej potrafi rozróżnić otwarte aplikacje i aplikacje tle, dla tych drugich ustawiając niski, energooszczędny priorytet.  
+
+Środowisko uruchomieniowe dla Windows Mixed Reality.
+
+Windows 10 będzie teraz zawierał natywną obsługę dla wszystkich zgodnych ze standardem Windows Mixed Reality gogli. To umożliwia wejście na rynek tańszych urządzeń do mieszanych rzeczywistości, które zamiast działać samodzielnie wykorzystują do obliczeń urządzenie towarzyszące, a więc naszego peceta. 
