@@ -1,0 +1,34 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-03-12T11:55:38+01:00
+
+====== linux ======
+Created poniedziałek 12 marzec 2018
+linux nazwa jadra systemu udostepnione w 1991roku
+oparty na sytemach uniksach
+linuks jest rozprowadzany w formach dystrybucji jest jeden ale w różnych wersjach (debian wersja)DEBIAN
+tworzona cały czas najpopuklarniejsze mint ubunt
+wersje jądra w nazwie
+
+włacz pae/nx
+wyłącz stację dyskietek
+wyłącz dzwiek
+
+iso format instalacyjny
+pliki systemowe trafiają do dysku c jest tam tworzony katalog windows
+a programy instalowane są na "program files"
+w systemie windows c tworzony jest folder users  
+
+patrycje w systemie linux oznaczane są za pomocą [[/dev/sda]]
+literki numer dysku a cyferki partycji
+systemy plików 
+windows - ntfs i fat 
+linux ext4 
+
+w windowsie wazną rzecza jest plik wymiany 
+swap = partycja wymiany 
+srodowisko gnom 
+zeby zainstalowac linkxa potrzebujemy trzy partycje
+pierwsza:(programy i jądro) 
+druga: dane użytkownika
+trzecia wymiany 

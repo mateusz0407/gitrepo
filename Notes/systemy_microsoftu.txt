@@ -1,0 +1,41 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-03-08T08:03:32+01:00
+
+====== systemy microsoftu ======
+Created czwartek 08 marzec 2018
+
+MS-DOS
+dir pokazuje zawartość katalogu w któreym jesteśmy
+zaproponował:
+miał ograniaczenia w nazwie 8 znaków 
+mógł obsłużyć 640 kB
+działał w trybie rzeczywistym, wirtualnym 
+obsługiwał jedno zadqanie w jednym momencie
+przyjeło ise od czasów dosa nadawac plikom atrybuty
+A- ARCHIW
+R- TYLKO DO ODCZYTU
+S- SYSTEM
+H- PLIK UKRYTY
+ograniczenia pliki mmogły miec żeny zostały odczytane to musiały mieć 64
+
+windows 3.1 ummozliwiał łączenie w sieć lokalna w topologie magistrali 
+spopularyzował ikonę ,faile manager i wchodzenie do danego folderu za pomocą myszki
+wprowadził pojecie wielozadaniowości
+windows umożliwiał prace użytkowników na komputerze
+
+windows 95
+przynosi rozwój interfejsu
+dopracowanie dde - dynamicznej wymiany danych
+ole - łaczenie i osadzanie obiektów
+
+obsługa usb wprowadzona w windows 98 
+obsługa stosu ctp(łaczenie z innymi komputerami )
+desk top -domowy użytkownik 
+NT - komputer dal biur
+netscape navigator - przeglądarka dominująca do końca 90 lat 
+
+microsoft explorer 
+activx - pozwalała uruchamiac zewnętrzne wtyczki ;dziurawe i dostawały się przez nią wirusy 
+
+
