@@ -34,8 +34,13 @@ obsługa stosu ctp(łaczenie z innymi komputerami )
 desk top -domowy użytkownik 
 NT - komputer dal biur
 netscape navigator - przeglądarka dominująca do końca 90 lat 
-
+ 
 microsoft explorer 
-activx - pozwalała uruchamiac zewnętrzne wtyczki ;dziurawe i dostawały się przez nią wirusy 
+activx - pozwalała uruchamiac zewnętrzne wtyczki ;dziurawe i dostawały się przez nią wirusy
 
+Adres MAC (od ang. medium access control address) – termin o dwóch znaczeniach:
 
+	warstwa sterowania dostępem do medium transmisyjnego w modelu OSI
+	sprzętowy adres karty sieciowej Ethernet i Token Ring, unikatowy w skali światowej, nadawany przez producenta danej karty podczas produkcji.
+
+Adres MAC (ang. MAC address) jest 48-bitowy i zapisywany jest heksadecymalnie (szesnastkowo). Pierwsze 24 bity oznaczają producenta karty sieciowej, pozostałe 24 bity są unikatowym identyfikatorem danego egzemplarza karty.
