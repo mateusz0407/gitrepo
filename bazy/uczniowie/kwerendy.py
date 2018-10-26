@@ -6,9 +6,12 @@ import sqlite3
 
 def kwerenda1(cur):
     cur .execute("""
-        SELECT AVG(pol) FROM oceny
+        SELECT klasa , COUNT(nazwisko) AS ilu FROM klasy
+        INNER JOIN uczniowie ON klasy.id=uczniowie.id_klasa
+        GROUP BY klasa
+        ORDER BY ilu DESC
     """)
-    
+    # ~SELECT klasa , COUNT(nazwisko) FROM klasy
     wynik = cur.fetchall()
     for row in wynik:
         print (tuple(row))
@@ -19,8 +22,8 @@ def kwerenda1(cur):
     # ~
 def main(args):
         ### KONFIGURACJA ###
-    baza_nazwa = 'szkola'
-    tabele = ['nazwiska', 'dane_osobowe', 'oceny']
+    baza_nazwa = 'uczniowie'
+    tabele = ['uczniowie', 'klasy', 'przedmioty', 'oceny']
     
     con = sqlite3.connect(baza_nazwa + '.db')
     cur = con.cursor()  # obiekt tzw. kursora
