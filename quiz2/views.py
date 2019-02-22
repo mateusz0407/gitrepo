@@ -13,7 +13,7 @@ def hello():
     return render_template("index.html")
 
 
-@app.route("/strona")
+@app.route("/lista")
 def strona():
     return "<h1>Witaj na serwerze</h1><h2>Aplikacja Quiz</h2>"
 
@@ -21,7 +21,3 @@ def strona():
 @app.route("/klasa")
 def klasa():
     return "<h1>Klasa 3a</h1>"
-
-
-if __name__ == '__main__':
-    app.run(debug=True)

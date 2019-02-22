@@ -22,12 +22,12 @@ class Kategoria(KlasaBaza):
     
 class Pytanie(KlasaBaza):
     pytanie = CharField(null=False)
-    id_kat = ForeignKeyField(Kategoria, related_name='id')
+    id_kat = ForeignKeyField(Kategoria, related_name='pytania')
 
 class Odpowiedz(KlasaBaza):
-    id_p = ForeignKeyField(Kategoria, related_name='id')
     odpowiedz = CharField(null=False)
-    odpok = BooleanField(default = 0)
+    pytanie = ForeignKeyField(Pytanie, related_name='odpowiedzi')
+    odpok = IntegerField(default = 0)
 
 
 def main(args):
